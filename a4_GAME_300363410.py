@@ -1,6 +1,6 @@
 # Family name: Kreit
 # Student number: 300363410
-# Course: IT1 1120
+# Course: ITI 1120
 # Assignment Number: 4 Part 2
 # Year: 2023
 
@@ -55,8 +55,6 @@ def deal_cards(deck):
      dealer=[]
      other=[]
 
-     # COMPLETE THE BODY OF THIS FUNCTION ACCORDING TO THE DESCRIPTION ABOVE
-
      # Simply add half of the deck to each player
      dealer = dealer + deck[0::2]
      other = other + deck[1::2]
@@ -89,8 +87,6 @@ def remove_pairs(l):
     sorted_hand = []
 
     temp_list = []
-
-    # COMPLETE THE BODY OF THIS FUNCTION ACCORDING TO THE DESCRIPTION ABOVE
 
     # Sort the given hand before working with it
     sorted_hand = sorted(l)
@@ -173,8 +169,6 @@ def print_deck(deck):
     Prints elements of a given list deck separated by a space
     '''
 
-    # COMPLETE THE BODY OF THIS FUNCTION ACCORDING TO THE DESCRIPTION ABOVE
-
     # Loop through every element in the given hand/deck
     for item in deck:
         # For every item in the given hand/deck, print them out in one line
@@ -190,8 +184,6 @@ def get_valid_input(n):
      
      Precondition: n>=1
      '''
-
-     # COMPLETE THE BODY OF THIS FUNCTION ACCORDING TO THE DESCRIPTION ABOVE
 
      # Create flag to check user's answer
      flag = True
@@ -230,8 +222,6 @@ def play_game():
      
      dealer=remove_pairs(dealer)
      human=remove_pairs(human)
-
-     # COMPLETE THE play_game function HERE
 
      # Set up boolean to check if the game is over
      game_over = False
